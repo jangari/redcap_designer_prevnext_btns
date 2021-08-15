@@ -1,0 +1,10 @@
+.prevBtn::before {
+    content: "«";
+    font-weight: bold;
+    padding: 1em;    
+}
+.nextBtn::after {
+    content: "»";
+    font-weight: bold;
+    padding: 1em;    
+}
