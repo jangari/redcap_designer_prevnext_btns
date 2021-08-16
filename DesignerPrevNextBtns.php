@@ -1,11 +1,14 @@
 <?php
 
-// Set the namespace defined in your config file
+/* Designer Prev/Next buttons - Saves you a click
+ * Aidan Wilson, Intersect Australia
+ * aidan.wilson@intersect.org.au
+*/
+
 namespace INTERSECT\DesignerPrevNextBtns;
 
 use \REDCap as REDCap;
 
-// Declare your module class, which must extend AbstractExternalModule 
 class DesignerPrevNextBtns extends \ExternalModules\AbstractExternalModule {
 
     public function redcap_every_page_top($project_id = null) {

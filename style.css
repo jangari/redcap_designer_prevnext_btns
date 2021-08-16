@@ -1,10 +1,14 @@
-.prevBtn::before {
-    content: "«";
-    font-weight: bold;
-    padding: 1em;    
+/* Designer Prev/Next buttons - Saves you a click
+ * Aidan Wilson, Intersect Australia
+ * aidan.wilson@intersect.org.au
+*/
+
+.instrument-nav button {
+    color:#800000;
+    font-size:12px;
+    font-weight:bold;
 }
-.nextBtn::after {
-    content: "»";
-    font-weight: bold;
-    padding: 1em;    
+tr.instrument-nav td {
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
